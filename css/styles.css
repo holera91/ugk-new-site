@@ -1,0 +1,53 @@
+/* Стилі для основного сайту */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff7f3f; /* Світло-оранжевий для хедера */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #d1e8e2; /* Світло-блакитний для футера */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  button {
+    background-color: #ff7f3f;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6037;
+  }
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Замовити</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- Включення хедера -->
+  <div id="header"></div>
+
+  <div class="container">
+    <h1>Розрахувати вартість</h1>
+    <form id="calcForm" method="POST">
+      <label>Вид робіт:</label>
+      <input type="radio" name="workType" value="roofing"> Покрівля
+      <input type="radio" name="workType" value="waterproofing"> Гідроізоляція
+      <br>
+      <label>Приблизна площа:</label>
+      <input type="text" name="area">
+      <br>
+      <label>Як до вас звертатись:</label>
+      <input type="text" name="contactName">
+      <br>
+      <label>Телефон:</label>
+      <input type="text" name="phone">
+      <br>
+      <button type="submit">Розрахувати</button>
+    </form>
+  </div>
+
+  <!-- Включення футера -->
+  <div id="footer"></div>
+  <script src="../js/script.js"></script>
+
+</body>
+</html>

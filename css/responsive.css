@@ -1,0 +1,15 @@
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+    header nav {
+      display: block;
+    }
+  
+    .container {
+      width: 100%;
+    }
+  
+    .form-container {
+      padding: 20px;
+    }
+  }
+  
