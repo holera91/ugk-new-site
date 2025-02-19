@@ -50,4 +50,7 @@ body {
   button:hover {
     background-color: #ff6037;
   }
-  
+  img {
+    max-width: 100%; /* Зображення не буде ширше контейнера */
+    height: auto; /* Висота змінюється пропорційно */
+}
